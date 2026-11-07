@@ -1,0 +1,11 @@
+<resources>
+    <style name="Theme.Hatirlatma" parent="Theme.Material3.DayNight.NoActionBar" />
+
+    <style name="Theme.Hatirlatma.Dialog" parent="Theme.Hatirlatma">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+</resources>
